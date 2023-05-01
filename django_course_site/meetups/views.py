@@ -6,12 +6,12 @@ def index(request):
     meetups = [
         {'title': "first meetup", 
          'location': "Nigeria",
-         "slug": 'A-first-meetup'
+         "slug": 'a-first-meetup'
          },
 
         {'title': "second meetup", 
          'location': "Nigeria",
-         "slug": 'A-first-meetup'
+         "slug": 'a-second-meetup'
          }
     ]
     

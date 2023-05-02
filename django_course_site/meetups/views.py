@@ -21,7 +21,7 @@ def index(request):
                       'meetups':meetups
                    })
 
-def meetup_details(request):
+def meetup_details(request, meetup_slug):
     selected_meetups = {
         'title': 'A first meetup',
         'description': 'This is the first meetup'
